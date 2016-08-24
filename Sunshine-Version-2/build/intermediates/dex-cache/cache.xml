@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Hardik\AndroidStudioProjects\Sunshine-Version-2\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Hardik\AndroidStudioProjects\Sunshine-Version-2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-21.0.3_5ca7f623c96c476e7b177d48f70ea394222bb249\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Hardik\AndroidStudioProjects\Sunshine-Version-2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="8e174c31d1466824f102462318ca1338dc12c826">
+        <dex dex="C:\Users\Hardik\AndroidStudioProjects\Sunshine-Version-2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_aa66f6a5327cdfc2a5bc74744eab9db9e20a3566\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Hardik\AndroidStudioProjects\Sunshine-Version-2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Hardik\AndroidStudioProjects\Sunshine-Version-2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-21.0.3_054430f21f2f3f5fb595dae9a9184822584a833d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Hardik\AndroidStudioProjects\Sunshine-Version-2\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Hardik\AndroidStudioProjects\Sunshine-Version-2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-21.0.3_a2778dda9cee64ca9d8d2d0eefee98f4a2fa72eb\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Hardik\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\Hardik\AndroidStudioProjects\Sunshine-Version-2\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-21.0.3_a2ba71756d35b24c84f43c843991eb5137a3c5dc\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Hardik\AndroidStudioProjects\Sunshine-Version-2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="188298f6664ddb1215ad7f4e94059cf5b752da73">
+        <dex dex="C:\Users\Hardik\AndroidStudioProjects\Sunshine-Version-2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_4ea4446ff275ee0bb573840b6b634e44409ed5d1\classes.dex" />
+    </item>
+
+</items>
