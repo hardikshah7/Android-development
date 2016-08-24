@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/welcome_hardik_shah"
+        android:id="@+id/welcomeText"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/search"
+        android:id="@+id/label_search"
+        android:layout_below="@+id/welcomeText"
+        android:layout_alignLeft="@+id/welcomeText"
+        android:layout_alignStart="@+id/welcomeText"
+        android:layout_marginTop="48dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stockSymbol"
+        android:layout_below="@+id/label_search"
+        android:layout_alignLeft="@+id/label_search"
+        android:layout_alignStart="@+id/label_search"
+        android:layout_alignRight="@+id/welcomeText"
+        android:layout_alignEnd="@+id/welcomeText"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/current_balance"
+        android:id="@+id/label_balance"
+        android:layout_below="@+id/search_button"
+        android:layout_alignLeft="@+id/search_button"
+        android:layout_alignStart="@+id/search_button"
+        android:layout_marginTop="52dp"
+        android:layout_alignRight="@+id/stockSymbol"
+        android:layout_alignEnd="@+id/stockSymbol" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go"
+        android:id="@+id/search_button"
+        android:layout_below="@+id/stockSymbol"
+        android:layout_alignLeft="@+id/stockSymbol"
+        android:layout_alignStart="@+id/stockSymbol"
+        android:onClick="searchStock" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/_10000"
+        android:id="@+id/current_balance"
+        android:layout_below="@+id/label_balance"
+        android:layout_alignLeft="@+id/label_balance"
+        android:layout_alignStart="@+id/label_balance" />
+</RelativeLayout>

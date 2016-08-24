@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SearchFragment"
+    tools:showIn="@layout/activity_search_results2">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/stockName"
+        android:layout_alignStart="@+id/stockName"
+        android:layout_alignRight="@+id/close"
+        android:layout_alignEnd="@+id/close"
+        android:id="@+id/tableLayout">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:gravity="center"
+                android:padding="3dip"
+                android:id="@+id/label_open"
+                android:text="open:" />
+            <TextView
+                android:gravity="center"
+                android:padding="3dip"
+                android:id="@+id/label_volume"
+                android:text="volume:" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:gravity="center"
+                android:padding="3dip"
+                android:id="@+id/open" />
+            <TextView
+                android:gravity="center"
+                android:padding="3dip"
+                android:id="@+id/volume" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:gravity="center"
+                android:padding="3dip"
+                android:id="@+id/label_high"
+                android:text="high:" />
+            <TextView
+                android:gravity="center"
+                android:padding="3dip"
+                android:id="@+id/label_exchange"
+                android:text="exchange:" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:gravity="center"
+                android:padding="3dip"
+                android:id="@+id/high" />
+            <TextView
+                android:gravity="center"
+                android:padding="3dip"
+                android:id="@+id/exchange" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:gravity="center"
+                android:padding="3dip"
+                android:id="@+id/label_low"
+                android:text="low:" />
+            <TextView
+                android:gravity="center"
+                android:padding="3dip"
+                android:id="@+id/label_percent_change"
+                android:text="percent change:" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:gravity="center"
+                android:padding="3dip"
+                android:id="@+id/low" />
+            <TextView
+                android:gravity="center"
+                android:padding="3dip"
+                android:id="@+id/percent_change" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/stockName"
+        android:layout_marginTop="88dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="56dp"
+        android:layout_marginStart="56dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/close"
+        android:layout_alignTop="@+id/stockName"
+        android:layout_toRightOf="@+id/stockName"
+        android:layout_toEndOf="@+id/stockName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/quantity"
+        android:id="@+id/label_quantity"
+        android:layout_below="@+id/tableLayout"
+        android:layout_alignLeft="@+id/tableLayout"
+        android:layout_alignStart="@+id/tableLayout" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/quantity"
+        android:layout_toEndOf="@+id/stockName"
+        android:layout_alignBottom="@+id/label_quantity"
+        android:layout_below="@+id/tableLayout"
+        android:layout_alignRight="@+id/close"
+        android:layout_alignEnd="@+id/close"
+        android:layout_toRightOf="@+id/stockName" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buy"
+        android:id="@+id/buy"
+        android:layout_below="@+id/label_quantity"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp" />
+
+</RelativeLayout>
